@@ -1,0 +1,65 @@
+body {
+  background-image: url(../Images/elephants-13_sm\\(1\).jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.loginform {
+  width: 350px;
+  height: 500px;
+  background-color: rgba(12, 33, 17, 85%);
+  color: white;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 10px 30px;
+  border-radius: 25px;
+}
+
+.loginavatar {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: -50px;
+  left: calc(50% - 50px);
+}
+
+.loginform p {
+  margin: 0;
+  padding: 0;
+}
+
+.loginform input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.loginform input[type="text"],
+input[type="password"] {
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-size: 16px;
+}
+
+.loginform input[type="submit"] {
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #25c5fb;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+}
+
+.loginform input[type="submit"]:hover {
+  cursor: pointer;
+  background: #ffc107;
+  color: #000;
+}

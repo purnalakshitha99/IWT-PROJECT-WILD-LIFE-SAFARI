@@ -1,0 +1,229 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100px;
+}
+header {
+  /* background: url(../img/african-safari-logo-8069189.jpg); */
+  text-align: center;
+  width: 100%;
+
+  background-position: center;
+  background-size: cover;
+  background-attachment: scroll;
+  position: relative;
+  /* overflow: hidden; */
+  border-radius: 0 0 85% 85% / 30%;
+}
+header .overlay {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  color: rgb(27, 26, 26);
+  /* text-shadow: 1px 1px 1px #333; */
+  /* background-image: linear-gradient( 135deg, #33084e69 10%, #522008da 100%); */
+  background-color: #111;
+}
+
+div {
+  color: white;
+}
+
+h1 {
+  font-family: "Dancing Script", cursive;
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.logo {
+  margin-right: 1200px;
+}
+
+.img {
+  width: px;
+  height: px;
+}
+/* .log-topnav{
+  margin-bottom: 24px;
+} */
+
+h3,
+p {
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 30px;
+}
+
+/* button {
+
+	border: none;
+	outline: none;
+	padding: 10px 50px ;
+	border-radius: 10px;
+	color: #333;
+	background: rgb(187, 204, 243);
+	margin-bottom: px;
+	box-shadow: 0 3px 20px 0 #0000003b;
+}
+button:hover{
+  background-color: #dddd;
+    color: black;
+	cursor: pointer;
+} */
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-image: linear-gradient(135deg, #212121 120%, #212121 100%);
+  transition: all 0.3s ease 0s;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  font-family: "Open Sans", sans-serif;
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 8px 10px;
+  text-decoration: none;
+  font-size: 17px;
+  margin: 0px;
+  border-radius: px;
+  cursor: pointer;
+
+  transition: all 0.5s ease 0s;
+}
+
+.login {
+  float: right;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #4d6159;
+  color: white;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #fcfcfc;
+  font-family: sans-serif;
+}
+footer {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #111;
+  height: auto 400px;
+  width: 100%;
+
+  padding-top: 40px;
+  color: #fff;
+}
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.footer-content h3 {
+  font-size: 2.1rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  line-height: 3rem;
+}
+.footer-content p {
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
+  color: #cacdd2;
+}
+.socials {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+}
+.socials li {
+  margin: 0 10px;
+}
+.socials a {
+  text-decoration: none;
+  color: #fff;
+  border: 1.1px solid white;
+  padding: 5px;
+
+  border-radius: 50%;
+}
+.socials a i {
+  font-size: 1.1rem;
+  width: 20px;
+
+  transition: color 0.4s ease;
+}
+.socials a:hover i {
+  color: aqua;
+}
+
+.footer-bottom {
+  background: black;
+  width: 100vw;
+  padding: 20px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+.footer-bottom p {
+  float: left;
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+}
+.footer-bottom p a {
+  color: #44bae8;
+  font-size: 16px;
+  text-decoration: none;
+}
+.footer-bottom span {
+  text-transform: uppercase;
+  opacity: 0.4;
+  font-weight: 200;
+}
+.footer-menu {
+  float: right;
+}
+.footer-menu ul {
+  display: flex;
+}
+.footer-menu ul li {
+  padding-right: 10px;
+  display: block;
+}
+.footer-menu ul li a {
+  color: #cfd2d6;
+  text-decoration: none;
+}
+.footer-menu ul li a:hover {
+  color: #27bcda;
+}
+
+@media (max-width: 500px) {
+  .footer-menu ul {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+}

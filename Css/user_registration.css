@@ -1,0 +1,105 @@
+.body {
+  padding: 1px 450px 0px 450px;
+  background-image: url(../Images/tiger.jpg);
+}
+
+.form {
+  height: 600px;
+  width: 400px;
+  background-color: #f9f7f7;
+  border: solid #dbe2ef;
+  /* top | right | bottom | left */
+  border-width: 0px 0px 0px 10px;
+  border-radius: 0px 0px 0px 0px;
+  padding: 1px 0px 0px 10px;
+}
+.form p {
+  color: #3f72af;
+  margin: 3px 0px 5px 5px;
+}
+.submit {
+  margin: 5px 0px 0px 35px;
+  padding: 1px 10px 1px 10px;
+  width: 300px;
+  height: 30px;
+  border-radius: 5px;
+  font-size: 1.1em;
+  border-color: #3e497a;
+  background-color: #3e497a;
+  color: white;
+}
+#terms {
+  color: black;
+}
+
+#first_name {
+  margin: 3px 0px 0px 0px;
+  padding: 0px 0px 0px 5px;
+  width: 350px;
+  height: 25px;
+  font-size: 1em;
+}
+#last_name {
+  margin: 3px 0px 0px 0px;
+  border: 1px 1px 1px 1px;
+  padding: 0px 0px 0px 5px;
+  width: 350px;
+  height: 25px;
+  font-size: 1em;
+}
+#email {
+  margin: 3px 0px 0px 0px;
+  border: 1px 1px 1px 1px;
+  padding: 0px 0px 0px 5px;
+  width: 350px;
+  height: 25px;
+  font-size: 1em;
+}
+#phone_number {
+  margin: 3px 0px 0px 0px;
+  border: 1px 1px 1px 1px;
+  padding: 0px 0px 0px 5px;
+  width: 350px;
+  height: 25px;
+  font-size: 1em;
+}
+#address {
+  margin: 3px 0px 0px 0px;
+  border: 1px 1px 1px 1px;
+  padding: 0px 0px 0px 5px;
+  width: 350px;
+  height: 25px;
+  font-size: 1em;
+}
+#country {
+  margin: 3px 0px 0px 0px;
+  border: 1px 1px 1px 1px;
+  padding: 0px 0px 0px 5px;
+  width: 350px;
+  height: 25px;
+  font-size: 1em;
+}
+#city {
+  margin: 3px 0px 0px 0px;
+  border: 1px 1px 1px 1px;
+  padding: 0px 0px 0px 5px;
+  width: 350px;
+  height: 25px;
+  font-size: 1em;
+}
+#password {
+  margin: 3px 0px 0px 0px;
+  border: 1px 1px 1px 1px;
+  padding: 0px 0px 0px 5px;
+  width: 350px;
+  height: 25px;
+  font-size: 1em;
+}
+#r_password {
+  margin: 3px 0px 0px 0px;
+  border: 1px 1px 1px 1px;
+  padding: 0px 0px 0px 5px;
+  width: 350px;
+  height: 25px;
+  font-size: 1em;
+}

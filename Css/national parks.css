@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.cards {
+  width: 300px;
+  margin: 10px;
+  background-color: white;
+  border-radius: 15px;
+  transition: 0.2s;
+}
+
+.card-img img {
+  width: 100%;
+  border-radius: 10px 10px 0px 0px;
+}
+.card-body h2 {
+  text-align: center;
+}
+.card-body p {
+  text-align: justify;
+  margin-bottom: 10px;
+  padding: 5px;
+}
